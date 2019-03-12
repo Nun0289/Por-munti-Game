@@ -1,0 +1,125 @@
+a{
+	color: #283593;
+	text-decoration: none;
+}
+h3{
+	margin-top: 12px;
+}
+*{
+	margin:0px;
+}
+body{
+	background-color: #424242;
+	font-family: 'Roboto', sans-serif;
+}
+main{
+	border-radius: 5px;
+    background-color: #EF5350;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: calc((100% - 580px) / 2);
+    width: 682px;
+    height: 620px;
+}
+section#status{
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #37474F;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+section#Slots{
+	border-radius: 15px;
+    background-color: #000000;
+    height: 377px;
+
+}
+#Gira{
+	text-overflow: inherit;
+	text-align: center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 20px;
+	margin-left: 600px;
+	position: absolute;
+	left: 0;
+	padding: ;
+	width: 150px;
+	height: 50px;
+	background:#ffdf0f;
+	border-radius: 10%; 
+}
+#rool{
+	border-radius: 20%;
+    display: inline-block;
+    background-color: #fffefee3;
+    width: 198px;
+    height: 330px;
+    margin-top: 23px;
+    margin-left: 13px;
+    margin-right: 0;
+    border: 5px solid #ffdf0f;
+}
+section#Gira:hover{
+	background-color: #BA68C8;
+}
+section#options{
+	margin-top: 104px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #C62828;
+    color: #FFFFFF;
+    width: 60px;
+}
+.option{
+	padding-left: 5px;
+}
+section#info{
+	background-color: #616161;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+	animation-duration: 1s;
+	color: #BDBDBD;
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: none;
+}
+#slot1, #slot2, #slot3{
+	display: inline-block;
+    margin-top: 90px;
+    margin-left: 21px;
+    margin-right: 15px;
+    background-size: 164px;
+    width: 158px;
+    height: 164px;
+}
+.a1{
+	background-image: url("res/tiles/seven.png");
+}
+.a2{
+	background-image: url("res/tiles/cherries.png");
+}
+.a3{
+	background-image: url("res/tiles/club.png");
+}
+.a4{
+	background-image: url("res/tiles/diamond.png");
+}
+.a5{
+	background-image: url("res/tiles/heart.png");
+}
+.a6{
+	background-image: url("res/tiles/spade.png");
+}
+.a7{
+	background-image: url("res/tiles/joker.png");
+}

@@ -25,7 +25,9 @@ main{
     height: 620px;
 }
 section#status{
-	margin-bottom: 25px;
+	position: relative;
+	bottom: 190px;
+	margin-bottom: 15px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	border-radius: 5px;
@@ -38,22 +40,26 @@ section#status{
 section#Slots{
 	border-radius: 15px;
     background-color: #000000;
-    height: 377px;
+	height: 377px;
+	position: relative;
+	bottom: 150px;
 
 }
 #Gira{
 	text-overflow: inherit;
 	text-align: center;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	margin: 20px;
-	margin-left: 600px;
-	position: absolute;
-	left: 0;
-	padding: ;
-	width: 150px;
-	height: 50px;
+	position: relative;
 	background:#ffdf0f;
 	border-radius: 10%; 
+	margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: calc((40% - 480px) / 2);
+    width: 50px;
+    height: 150px;
 }
 #rool{
 	border-radius: 20%;

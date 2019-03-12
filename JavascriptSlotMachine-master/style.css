@@ -9,12 +9,12 @@ h3{
 	margin:0px;
 }
 body{
-	background-color: #424242;
+	background-image: url("https://png.pngtree.com/element_origin_min_pic/16/09/05/0957ccd033c71ec.jpg");
 	font-family: 'Roboto', sans-serif;
 }
 main{
 	border-radius: 5px;
-    background-color: #EF5350;
+    background-color: rgba(0, 0, 0, 0);
     margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -25,6 +25,7 @@ main{
     height: 620px;
 }
 section#status{
+	box-shadow: 8px 7px 14px 3px #f7edaf;
 	position: relative;
 	bottom: 190px;
 	margin-bottom: 15px;
@@ -32,25 +33,27 @@ section#status{
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
-	background-color: #37474F;
+	background-color: rgb(90, 90, 87);
 	color: #FFFFFF;
 	font-size: 25px;
 	font-family: 'Roboto Mono', monospace;
 }
 section#Slots{
+	box-shadow: 14px 1px 20px 0px #f7edaf;
 	border-radius: 15px;
-    background-color: #000000;
+    background-image: linear-gradient(to top right, #ff0500 , #fff068);
 	height: 377px;
 	position: relative;
 	bottom: 150px;
 
 }
 #Gira{
+	box-shadow: 5px 3px 19px 3px #f7edaf;
 	text-overflow: inherit;
 	text-align: center;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	position: relative;
-	background:#ffdf0f;
+	background-image: linear-gradient(to top right, #ff0500 , #fff068);
 	border-radius: 10%; 
 	margin-top: 30px;
     padding-top: 20px;
@@ -64,13 +67,13 @@ section#Slots{
 #rool{
 	border-radius: 20%;
     display: inline-block;
-    background-color: #fffefee3;
+    background: #FFFFFF;
     width: 198px;
     height: 330px;
     margin-top: 23px;
     margin-left: 13px;
     margin-right: 0;
-    border: 5px solid #ffdf0f;
+    border: 5px solid #eccd04;
 }
 section#options{
 	margin-top: 104px;
@@ -93,23 +96,23 @@ section#options{
     height: 164px;
 }
 .a1{
-	background-image: url("res/tiles/seven.png");
+	background-image:url("res/icon new/1.png");
 }
 .a2{
-	background-image: url("res/tiles/cherries.png");
+	background-image: url("res/icon new/2.png");
 }
 .a3{
-	background-image: url("res/tiles/club.png");
+	background-image: url("res/icon new/3.png");
 }
 .a4{
-	background-image: url("res/tiles/diamond.png");
+	background-image: url("res/icon new/4.png");
 }
 .a5{
-	background-image: url("res/tiles/heart.png");
+	background-image: url("res/icon new/5.png");
 }
 .a6{
-	background-image: url("res/tiles/spade.png");
+	background-image: url("res/icon new/6.png");
 }
 .a7{
-	background-image: url("res/tiles/joker.png");
-}
+	background-image: url("res/icon new/7.png");
+}6

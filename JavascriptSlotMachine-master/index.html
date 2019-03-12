@@ -1,7 +1,10 @@
+
+
 <!DOCTYPE html>
 <head>
 	<title>Slot Machine</title>
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 a{
@@ -20,14 +23,15 @@ body{
 }
 main{
 	border-radius: 5px;
-	background-color: #EF5350;
-	margin-top: 30px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: calc((100% - 580px) / 2);
-	width: 550px;
+    background-color: #EF5350;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: calc((100% - 580px) / 2);
+    width: 682px;
+    height: 620px;
 }
 section#status{
 	margin-bottom: 25px;
@@ -42,27 +46,45 @@ section#status{
 }
 section#Slots{
 	border-radius: 15px;
-	background-color: #FAFAFA;
+    background-color: #000000;
+    height: 377px;
+
 }
-section#Gira{
-	margin-top: 25px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-radius: 5px;
-	text-align: center;
-	background-color: #AB47BC;
-	color: #FFFFFF;
-	font-size: 25px;
+#Gira{
+	margin-top: -211px;
+    padding-top: 220px;
+    padding-bottom: 94px;
+    border-radius: 5px;
+    background-color: #ab47bc00;
+    color: #FFFFFF;
+    font-size: 25px;
+    display: block;
+    width: 100px;
+    margin-top: -428px;
+    margin-left: 1220px;
+    margin-right: 17px;
+}
+#rool{
+	border-radius: 20%;
+    display: inline-block;
+    background-color: #fffefee3;
+    width: 198px;
+    height: 330px;
+    margin-top: 23px;
+    margin-left: 13px;
+    margin-right: 0;
+    border: 5px solid #ffdf0f;
 }
 section#Gira:hover{
 	background-color: #BA68C8;
 }
 section#options{
-	margin-top: 20px;
-	padding-top: 5px;
-	border-radius: 5px;
-	background-color: #C62828;
-	color: #FFFFFF;
+	margin-top: 104px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #C62828;
+    color: #FFFFFF;
+    width: 60px;
 }
 .option{
 	padding-left: 5px;
@@ -82,12 +104,12 @@ section#info{
 }
 #slot1, #slot2, #slot3{
 	display: inline-block;
-	margin-top: 5px;
-	margin-left: 15px;
-	margin-right: 15px;
-	background-size: 150px;
-	width: 150px;
-	height: 150px;
+    margin-top: 90px;
+    margin-left: 21px;
+    margin-right: 15px;
+    background-size: 164px;
+    width: 158px;
+    height: 164px;
 }
 .a1{
 	background-image: url("res/tiles/seven.png");
@@ -110,28 +132,46 @@ section#info{
 .a7{
 	background-image: url("res/tiles/joker.png");
 }
+
 </style>
 </head>
+
+
+
+
+
+
+<!--HTML-->
 <html>
 <body onload="toggleAudio()">
 <main>
 	<section id="status">WELCOME!</section>
 	<section id="Slots">
-		<div id="slot1" class="a1"></div>
-		<div id="slot2" class="a1"></div>
-		<div id="slot3" class="a1"></div>
-	</section>
-	<section onclick="doSlot()" id="Gira">TAKE A SPIN!</section>
-	<section id="options">
-		<img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
+		<div id="rool"><div id="slot1" class="a1"></div></div>
+		<div id="rool"><div id="slot2" class="a1"></div></div>
+		<div id="rool"><div id="slot3" class="a1"></div></div>
 	</section>
 </main>
+<div onclick="doSlot()" id="Gira">TAKE A SPIN!</div>
+<section id="options">
+		<img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
+	</section>
 <section id="info">
 	<h3>Come si Gioca?</h3>
 	<p>Tenta la tua fortuna premendo il bottone! Il Jolly vale l'elemento mancante per vincere. Tre elementi uguali e vinici! Ma attenzione, non prendere tre Jolly o perderai!</p>
 	<h3>Licenza</h3>
 	<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
 </section>
+
+
+
+
+
+
+
+
+
+
 
 <script>
 var doing = false;
@@ -156,9 +196,9 @@ function doSlot(){
 	var i3 = 0;
 	var sound = 0
 	status.innerHTML = "SPINNING"
-	slot1 = setInterval(spin1, 50);
-	slot2 = setInterval(spin2, 50);
-	slot3 = setInterval(spin3, 50);
+	slot1 = setInterval(spin1, 150);
+	slot2 = setInterval(spin2, 150);
+	slot3 = setInterval(spin3, 150);
 	function spin1(){
 		i1++;
 		if (i1>=numeberSlot1){

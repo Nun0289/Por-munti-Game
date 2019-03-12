@@ -66,9 +66,6 @@ section#Slots{
     margin-right: 0;
     border: 5px solid #ffdf0f;
 }
-section#Gira:hover{
-	background-color: #BA68C8;
-}
 section#options{
 	margin-top: 104px;
     padding-top: 5px;
@@ -79,19 +76,6 @@ section#options{
 }
 .option{
 	padding-left: 5px;
-}
-section#info{
-	background-color: #616161;
-	padding-left: 12px;
-	padding-bottom: 12px;
-	border-radius: 5px;
-	overflow: hidden;
-	animation-duration: 1s;
-	color: #BDBDBD;
-	margin-top: 50px;
-	margin-left: 30%;
-	margin-right: 30%;
-	display: none;
 }
 #slot1, #slot2, #slot3{
 	display: inline-block;

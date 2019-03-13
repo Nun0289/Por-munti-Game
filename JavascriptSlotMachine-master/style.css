@@ -9,13 +9,11 @@ h3{
 	margin:0px;
 }
 body{
-	background:#1b1e20;
 	font-family: 'Roboto', sans-serif;
 
 }
 main{
-	border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0);
+	border-radius: 10px;
     margin-top: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -40,25 +38,23 @@ section#status{
     color: rgb(119, 214, 231);
     height: 60px;
     border-radius: 50px;
-    border:  2px dotted rgb(251, 255, 21);
+    border:  2px dotted rgb(241, 55, 55);
 
 }
 section#Slots{
-	box-shadow: 6px 5px 14px 3px #3b3b3b78;
 	border-radius: 15px;
-    background-image: linear-gradient(to top right, #35353560 , #4d4d4d ,#777777);
 	height: 377px;
 	position: relative;
 	bottom: 150px;
 
 }
 #Gira{
-    box-shadow: 6px 5px 14px 3px #3b3b3b78;
 	text-overflow: inherit;
 	text-align: center;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	position: relative;
-	background-image: linear-gradient(to top right, #35353560 , #4d4d4d ,#777777);
+    position: relative;
+    background-size: 100px;
+	background-image: url("https://media2.giphy.com/media/ctWAXBHAsTsr0EzwvS/giphy.gif?cid=3640f6095c89418b2e616b67459b0771");
 	border-radius: 10%; 
 	margin-top: 30px;
     padding-top: 20px;
@@ -78,7 +74,7 @@ section#Slots{
     margin-top: 23px;
     margin-left: 13px;
     margin-right: 0;
-    border: 5px solid #4d4d4d;
+    border: 5px solid #fcff37;
 }
 section#options{
 	margin-bottom: auto;
@@ -87,6 +83,7 @@ section#options{
     background-color: #C62828;
     color: #FFFFFF;
     width: 60px;
+    position: relative;
 }
 .option{
 	padding-left: 5px;
@@ -153,7 +150,7 @@ section#options{
   fill: #fff;
   display: block;
   position: fixed;
-  margin-left: calc((90% - 50px) / 2);
+  margin-left: 43%;
   padding: 20px;
   width: 335px;
   height: 50px;
@@ -163,12 +160,11 @@ section#options{
   background: rgba(0, 0, 0, 0.144);
   border-radius: 5em;
   border: 5px dotted wheat;
- }
- .js-odoo .box-while{
-     margin: 101px;
-    display: block;
+}
+#video{
     position: absolute;
-    width: 300px;
-    height: 50px;
-    background: #FFFFFF;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }

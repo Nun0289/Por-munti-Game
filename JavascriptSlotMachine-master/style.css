@@ -118,64 +118,6 @@ section#options{
 	background-image: url("res/icon new/7.png");
 }6
 
-.text-slot {
-  height:60px;
-  text-align: center; 
-  margin:30px 0px 50px 0px;
-}
-
-.text-slot ul { 
-  padding:10px 10px 10px 10px;
-  list-style-type: none; 
-  display:inline-block;
-  text-align: center; 
-  box-shadow: 0 0 10px #b4b4b4;
-}
-
-.text-slot ul li{
-   float:left;
-   color:white;
-   font-size:30px;
-   font-weight:300;
-   margin:0 1px 0 1px;
-   padding:6px 6px 0px 6px;
-   height: 40px;
-   width: 40px;
-   display: inline;
-}
-
-.sagn-dark-blue {
-	background-color: #034E7A;
-}
-
-.sagn-orange {
-	background-color:#58585A;
-}
-
-.sagn-red {
-	background-color: #EE3842;
-}
-
-.sagn-grey {
-	background-color: #e2893b;
-}
-
-.sagn-light-blue {
-	background-color: #42A0FA;
-}
-
-.sagn-dark-grey {
-	background-color: #4aa2ce;
-}
-
-.sagn-black {
-  background-color: black;
-}
-.text-slot ul :hover{
-  transition: 1s;
-  box-shadow: 0px 0px 120px hsl(170, 100%, 50%);
-}
-
 #container {
   color:#999;
   text-transform: uppercase;
@@ -186,28 +128,6 @@ section#options{
   width:100%;
   bottom:45%;
   display:block;
-}
-
-
-#flip {
-  height:70px;
-  overflow:hidden;
-  margin-top: 0px;
-  position: static;
-  left: 50%;
-  font-size: 50px;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 5s linear infinite;
 }
 
 @keyframes show {

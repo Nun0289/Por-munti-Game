@@ -5,22 +5,31 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <html>
+
 <body onload="toggleAudio()">
+<div class="js-odoo">
+	<div class="box-while"></div>
+</div>
+<!-- <video autoplay loop mute>
+	<source src="Money Falling from the Sky - Free Background Loop.mp4" type="video mp4">
+	<source src="Money Falling from the Sky - Free Background Loop.mp4" type="video mp4">
+	<source src="Money Falling from the Sky - Free Background Loop.mp4" type="video mp4">
+</video> -->
 <main>
-	<div class="js-odoo"></div>
 	<div onclick="doSlot()" id="Gira"><b>TAKE A SPIN!</b></div>
-	<section id="status">WELCOME! MY WOULD</section>
+	<section id="status"></section>
 	<section id="Slots">
 		<div id="rool"><div id="slot1" class="a1"></div></div>
 		<div id="rool"><div id="slot2" class="a1"></div></div>
 		<div id="rool"><div id="slot3" class="a1"></div></div>
 	</section>
+
+	<script class="slotmove" src="slottext.js"></script>
 </main>
 
 <section id="options">
 <img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
 	</section>
-<script src="js.js"></script>
-<script src="slottext.js"></script>
+<script class="font" src="js.js"></script>
 </body>
 </html>

@@ -9,14 +9,14 @@ h3{
 	margin:0px;
 }
 body{
-	background-image: url("https://png.pngtree.com/element_origin_min_pic/16/09/05/0957ccd033c71ec.jpg");
+	background:#1b1e20;
 	font-family: 'Roboto', sans-serif;
 
 }
 main{
 	border-radius: 5px;
     background-color: rgba(0, 0, 0, 0);
-    margin-top: 30px;
+    margin-top: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -26,35 +26,39 @@ main{
     height: 620px;
 }
 section#status{
-	box-shadow: 8px 7px 14px 3px #f7edaf;
+    box-shadow: 6px 5px 14px 3px #3b3b3b78;
 	position: relative;
 	bottom: 190px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
-	background-color: rgb(90, 90, 87);
-	color: #FFFFFF;
-	font-size: 25px;
-	font-family: 'Roboto Mono', monospace;
+    background-image: url("https://www.thoughtco.com/thmb/jHz511lzCpEk6DOM3OobK9rwnY4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/slot-machine-winner-777-172323217-589783ae5f9b5874ee3a8702.jpg");
+    background-size: 100%;
+    color: rgb(119, 214, 231);
+    height: 60px;
+    border-radius: 50px;
+    border:  2px dotted rgb(251, 255, 21);
+
 }
 section#Slots{
-	box-shadow: 14px 1px 20px 0px #f7edaf;
+	box-shadow: 6px 5px 14px 3px #3b3b3b78;
 	border-radius: 15px;
-    background-image: linear-gradient(to top right, #ff0500 , #fff068);
+    background-image: linear-gradient(to top right, #35353560 , #4d4d4d ,#777777);
 	height: 377px;
 	position: relative;
 	bottom: 150px;
 
 }
 #Gira{
-	box-shadow: 5px 3px 19px 3px #f7edaf;
+    box-shadow: 6px 5px 14px 3px #3b3b3b78;
 	text-overflow: inherit;
 	text-align: center;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	position: relative;
-	background-image: linear-gradient(to top right, #ff0500 , #fff068);
+	background-image: linear-gradient(to top right, #35353560 , #4d4d4d ,#777777);
 	border-radius: 10%; 
 	margin-top: 30px;
     padding-top: 20px;
@@ -74,7 +78,7 @@ section#Slots{
     margin-top: 23px;
     margin-left: 13px;
     margin-right: 0;
-    border: 5px solid #eccd04;
+    border: 5px solid #4d4d4d;
 }
 section#options{
 	margin-bottom: auto;
@@ -144,12 +148,27 @@ section#options{
 .js-odoo {
   font-family: 'Inconsolata';
   font-weight: bold;
-  font-size: 4vmin;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  font-size: 3vmin;
+  text-shadow: 7px 4px 1px rgba(0, 0, 0, 0.5);
   fill: #fff;
-  display: inline-block;
-  justify-content: center;
-  align-items: top;
-  position: relative;
-  left: 23%;
+  display: block;
+  position: fixed;
+  margin-left: calc((90% - 50px) / 2);
+  padding: 20px;
+  width: 335px;
+  height: 50px;
+  right: 0;
+  left: 0;
+  top:0;
+  background: rgba(0, 0, 0, 0.144);
+  border-radius: 5em;
+  border: 5px dotted wheat;
  }
+ .js-odoo .box-while{
+     margin: 101px;
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+}

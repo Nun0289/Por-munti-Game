@@ -1,1 +1,1 @@
-odoo.default({ el:'.js-odoo', from: 'Welcome To', to: 'SlotMachine', animationDelay: 1000 });
+odoo.default({ el:'.js-odoo', from: 'Welcome To', to: 'SlotMachine', animationDelay: 10 });

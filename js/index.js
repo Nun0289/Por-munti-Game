@@ -269,4 +269,5 @@ function blink(element){
         $(this).animate({ opacity: 1 }, 200);
     });
 
+
 }

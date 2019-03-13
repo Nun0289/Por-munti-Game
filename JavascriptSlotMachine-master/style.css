@@ -224,10 +224,10 @@ section#options{
 .js-odoo {
   font-family: 'Inconsolata';
   font-weight: bold;
-  font-size: 16vmin;
+  font-size: 7vmin;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
   fill: #fff;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: top;
  }

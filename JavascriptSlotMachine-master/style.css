@@ -143,26 +143,26 @@ section#options{
 }
 
 .js-odoo {
-  font-family: 'Inconsolata';
-  font-weight: bold;
-  font-size: 3vmin;
-  text-shadow: 7px 4px 1px rgba(0, 0, 0, 0.5);
-  fill: #fff;
-  display: block;
-  position: fixed;
-  margin-left: 43%;
-  padding: 20px;
-  width: 335px;
-  height: 50px;
-  right: 0;
-  left: 0;
-  top:0;
-  background: rgba(0, 0, 0, 0.144);
-  border-radius: 5em;
-  border: 5px dotted wheat;
+      font-family: 'Inconsolata';
+    font-weight: bold;
+    font-size: 3vmin;
+    text-shadow: 7px 4px 1px rgba(0, 0, 0, 0.5);
+    fill: #fff;
+    display: block;
+    position: absolute;
+    margin-left: 43%;
+    padding: 20px;
+    width: 256px;
+    height: 50px;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.144);
+    border-radius: 5em;
+    border: 5px dotted #fcff37;
 }
 #video{
-    position: absolute;
+    position: fixed;
     right:0;
     bottom: 0;
     min-width: 100%;

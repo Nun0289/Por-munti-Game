@@ -88,7 +88,7 @@ function testWin(){
 		score=score+250;
 		updateScore();
 		win.play();}
-	else if(slot1=="a4"&&slot2=="a4"&&slot3=="a4"){
+	else if(slot1=="a6"&&slot2=="a6"&&slot3=="a6"){
 		status.innerHTML = "YOU WIN! 150$";
 		score=score+150;
 		updateScore();
@@ -98,17 +98,17 @@ function testWin(){
 		score=score+150;
 		updateScore();
 		win.play();}
-	else if(slot1=="a1"&&slot2=="a4"&&slot3=="a2"){
+	else if(slot1=="a1"&&slot2=="a6"&&slot3=="a2"){
 		status.innerHTML = "YOU WIN! 80$";
 		score=score+80;
 		updateScore();
 		win.play();}
-	else if(slot1=="a6"&&slot2=="a6"&&slot3=="a6"){
+	else if(slot1=="a4"&&slot2=="a4"&&slot3=="a4"){
 		status.innerHTML = "YOU WIN! 80$";
 		score=score+150;
 		updateScore();
 		win.play();}
-	else if(slot1=="a6"&&slot2=="a6"){
+	else if(slot1=="a4"&&slot2=="a4"){
 		status.innerHTML = "YOU WIN! 50$";
 		score=score+50;
 		updateScore();

@@ -6,6 +6,7 @@ var lose = new Audio("res/sounds/lose.mp3");
 var audio = false;
 let status = document.getElementById("status")
 var info = true;
+score = 100;
 
 function doSlot(){
 	if (doing){return null;}
@@ -14,6 +15,8 @@ function doSlot(){
 	var numeberSlot1 = numChanges+randomInt(1,7)
 	var numeberSlot2 = numChanges+2*7+randomInt(1,7)
 	var numeberSlot3 = numChanges+4*7+randomInt(1,7)
+	score=score-2;
+	updateScore();
 
 	var i1 = 0;
 	var i2 = 0;
@@ -75,21 +78,71 @@ function testWin(){
 	var slot2 = document.getElementById("slot2").className
 	var slot3 = document.getElementById("slot3").className
 
-	if (((slot1 == slot2 && slot2 == slot3) ||
-		(slot1 == slot2 && slot3 == "a7") ||
-		(slot1 == slot3 && slot2 == "a7") ||
-		(slot2 == slot3 && slot1 == "a7") ||
-		(slot1 == slot2 && slot1 == "a7") ||
-		(slot1 == slot3 && slot1 == "a7") ||
-		(slot2 == slot3 && slot2 == "a7") ) && !(slot1 == slot2 && slot2 == slot3 && slot1=="a7")){
-		status.innerHTML = "YOU WIN!";
-		win.play();
-	}else{
+	if(slot1=="a3"&&slot2=="a3"&&slot3=="a3"){
+		status.innerHTML = "YOU WIN! 500$";
+		score=score+500;
+		updateScore();
+		win.play();}
+	else if(slot1=="a1"&&slot2=="a1"&&slot3=="a1"){
+		status.innerHTML = "YOU WIN! 250$";
+		score=score+250;
+		updateScore();
+		win.play();}
+	else if(slot1=="a4"&&slot2=="a4"&&slot3=="a4"){
+		status.innerHTML = "YOU WIN! 150$";
+		score=score+150;
+		updateScore();
+		win.play();}
+	else if(slot1=="a2"&&slot2=="a2"&&slot3=="a2"){
+		status.innerHTML = "YOU WIN! 100$";
+		score=score+150;
+		updateScore();
+		win.play();}
+	else if(slot1=="a1"&&slot2=="a4"&&slot3=="a2"){
+		status.innerHTML = "YOU WIN! 80$";
+		score=score+80;
+		updateScore();
+		win.play();}
+	else if(slot1=="a6"&&slot2=="a6"&&slot3=="a6"){
+		status.innerHTML = "YOU WIN! 80$";
+		score=score+150;
+		updateScore();
+		win.play();}
+	else if(slot1=="a6"&&slot2=="a6"){
+		status.innerHTML = "YOU WIN! 50$";
+		score=score+50;
+		updateScore();
+		win.play();}
+	else if(slot1=="a5"&&slot2=="a5"&&slot3=="a5"){
+		status.innerHTML = "YOU WIN! 30$";
+		score=score+30;
+		updateScore();
+		win.play();}
+	else if(slot1=="a5"&&slot2=="a5"){
+		status.innerHTML = "YOU WIN! 15$";
+		score=score+15;
+		updateScore();
+		win.play();}
+	else if(slot1=="a7"&&slot2=="a7"&&slot3=="a7"){
+		status.innerHTML = "YOU WIN! 10$";
+		score=score+10;
+		updateScore();
+		win.play();}
+	else if(slot1=="a7"&&slot2=="a7"){
+		status.innerHTML = "YOU WIN! 5$";
+		score=score+5;
+		updateScore();
+		win.play();}
+	else if(slot1=="a7"){
+		status.innerHTML = "YOU WIN! 2$";
+		score=score+2;
+		updateScore();
+		win.play();}
+	else{
 		status.innerHTML = "YOU LOSE!"
 		lose.play();
 	}
-	doing = false;
-}
+	doing = false;}
 
 function toggleAudio(){
 	if (!audio){
@@ -118,4 +171,7 @@ function toggleAudio(){
 
 function randomInt(min, max){
 	return Math.floor((Math.random() * (max-min+1)) + min);
+}
+function updateScore(){
+  numscore.innerText = score;
 }

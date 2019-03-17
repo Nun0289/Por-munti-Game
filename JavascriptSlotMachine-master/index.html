@@ -13,8 +13,10 @@
 			<source src="res/io.mp4" type="video/mp4">
 		</video>
 	<!-- ตัวอักษรเคลื่อนไหว slottext.js -->
-<div class="js-odoo"></div>
+	<div class="js-odoo"></div>
+
 <main>
+	
 	<!-- คันโยก ID= Gira -->
 	<div onclick="doSlot()" id="Gira" href="#" class="but"></div>
 	<!-- ตัวแสดง การได้คะแนน -->
@@ -29,13 +31,15 @@
 	</section>
 	<!-- ทำให้หมุน ด้วย  js -->
 	<script class="slotmove" src="slottext.js"></script>
+	<!-- เสียง id="audio" class="option" -->
+	<section id="options">
+	<img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
+	</section>
+	<div id="score-all"><span id="numscore">100</span></div>
 </main>
 <!-- /* ตัวนับคะแนน ทั้งหมด */ -->
-<div id="score-all"><span id="numscore">100</span></div>
-<!-- เสียง id="audio" class="option" -->
-<section id="options">
-<img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
-</section>
+
+
 <script class="font" src="js.js"></script>
 </body>
 </html>

@@ -8,8 +8,9 @@ var audio = false;
 let status = document.getElementById("status")
 var info = true;
 score = 100;
-	function bg(){
-	bgsound.play(1);}
+function bgsound() {
+	document.getElementById("bgsound").autoplay;
+}
 function doSlot(){
 	if (doing){return null;}
 	doing = true;
@@ -100,7 +101,7 @@ function testWin(){
 		score=score+150;
 		updateScore();
 		win.play();}
-	else if(slot1=="a1"&&slot2=="a6"&&slot3=="a2"){
+	else if(slot1=="a1"&&slot2=="a6"&&slot3=="a2"||slot1=="a2"&&slot2=="a6"&&slot3=="a1"||slot1=="a6"&&slot2=="a1"&&slot3=="a2"||slot1=="a1"&&slot2=="a2"&&slot3=="a6"||slot1=="a2"&&slot2=="a1"&&slot3=="a6"||slot1=="a6"&&slot2=="a2"&&slot3=="a1"){
 		status.innerHTML = "YOU WIN! 80$";
 		score=score+80;
 		updateScore();
@@ -110,7 +111,7 @@ function testWin(){
 		score=score+150;
 		updateScore();
 		win.play();}
-	else if(slot1=="a4"&&slot2=="a4"){
+	else if(slot1=="a4"&&slot2=="a4"||slot1=="a4"&&slot3=="a4"||slot2=="a4"&&slot3=="a4"){
 		status.innerHTML = "YOU WIN! 50$";
 		score=score+50;
 		updateScore();
@@ -120,7 +121,7 @@ function testWin(){
 		score=score+30;
 		updateScore();
 		win.play();}
-	else if(slot1=="a5"&&slot2=="a5"){
+	else if(slot1=="a5"&&slot2=="a5"||slot1=="a5"&&slot3=="a5"||slot2=="a5"&&slot3=="a5"){
 		status.innerHTML = "YOU WIN! 15$";
 		score=score+15;
 		updateScore();
@@ -130,12 +131,12 @@ function testWin(){
 		score=score+10;
 		updateScore();
 		win.play();}
-	else if(slot1=="a7"&&slot2=="a7"){
+	else if(slot1=="a7"&&slot2=="a7"||slot1=="a7"&&slot3=="a7"||slot2=="a7"&&slot3=="a7"){
 		status.innerHTML = "YOU WIN! 5$";
 		score=score+5;
 		updateScore();
 		win.play();}
-	else if(slot1=="a7"){
+	else if(slot1=="a7"||slot2=="a7"||slot3=="a7"){
 		status.innerHTML = "YOU WIN! 2$";
 		score=score+2;
 		updateScore();

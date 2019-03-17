@@ -152,14 +152,14 @@ section#options{
     font-size: 3vmin;
     text-shadow: 7px 4px 1px rgba(0, 0, 0, 0.5);
     fill: #fff;
-    display: flex;
+    display: block;
     position: absolute;
     padding: 20px;
     width: 50%;
     height: 50px;
     top: 0;
     text-align: center;
-    left: 26%;
+    left: 28%;
     border-radius: 5em;
     border: 5px dotted #fcff37;
 }

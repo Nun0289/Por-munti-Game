@@ -8,6 +8,8 @@ var audio = false;
 let status = document.getElementById("status")
 var info = true;
 score = 100;
+	function bg(){
+	bgsound.play(1);}
 function doSlot(){
 	if (doing){return null;}
 	doing = true;

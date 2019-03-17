@@ -1,13 +1,13 @@
 var doing = false;
 var spin = [new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3")];
 var coin = [new Audio("res/sounds/coin.mp3"),new Audio("res/sounds/coin.mp3"),new Audio("res/sounds/coin.mp3")]
+var bgsound =[new Audio("res/sounds/sound.mp3")]
 var win = new Audio("res/sounds/win.mp3");
 var lose = new Audio("res/sounds/lose.mp3");
 var audio = false;
 let status = document.getElementById("status")
 var info = true;
 score = 100;
-
 function doSlot(){
 	if (doing){return null;}
 	doing = true;
@@ -153,6 +153,9 @@ function toggleAudio(){
 		for (var x of coin){
 			x.volume = 0.5;
 		}
+		for (var x of bgsound){
+			x.volume = 1;
+		}
 		win.volume = 1.0;
 		lose.volume = 1.0;
 	}else{
@@ -161,6 +164,9 @@ function toggleAudio(){
 			x.volume = 0;
 		}
 		for (var x of coin){
+			x.volume = 0;
+		}
+		for (var x of bgsound){
 			x.volume = 0;
 		}
 		win.volume = 0;

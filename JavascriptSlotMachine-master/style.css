@@ -152,19 +152,18 @@ section#options{
     font-size: 3vmin;
     text-shadow: 7px 4px 1px rgba(0, 0, 0, 0.5);
     fill: #fff;
-    display: block;
+    display: flex;
     position: absolute;
-    margin-left: 43%;
     padding: 20px;
-    width: 256px;
+    width: 50%;
     height: 50px;
-    right: 0;
-    left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.144);
+    text-align: center;
+    left: 26%;
     border-radius: 5em;
     border: 5px dotted #fcff37;
 }
+
 #video{
     position: fixed;
     right:0;

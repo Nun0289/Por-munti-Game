@@ -98,7 +98,7 @@ function testWin(){
 		win.play();}
 	else if(slot1=="a2"&&slot2=="a2"&&slot3=="a2"){
 		status.innerHTML = "YOU WIN! 100$";
-		score=score+150;
+		score=score+100;
 		updateScore();
 		win.play();}
 	else if(slot1=="a1"&&slot2=="a6"&&slot3=="a2"||slot1=="a2"&&slot2=="a6"&&slot3=="a1"||slot1=="a6"&&slot2=="a1"&&slot3=="a2"||slot1=="a1"&&slot2=="a2"&&slot3=="a6"||slot1=="a2"&&slot2=="a1"&&slot3=="a6"||slot1=="a6"&&slot2=="a2"&&slot3=="a1"){
@@ -108,7 +108,7 @@ function testWin(){
 		win.play();}
 	else if(slot1=="a4"&&slot2=="a4"&&slot3=="a4"){
 		status.innerHTML = "YOU WIN! 80$";
-		score=score+150;
+		score=score+80;
 		updateScore();
 		win.play();}
 	else if(slot1=="a4"&&slot2=="a4"||slot1=="a4"&&slot3=="a4"||slot2=="a4"&&slot3=="a4"){

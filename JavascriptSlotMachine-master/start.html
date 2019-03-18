@@ -6,8 +6,8 @@
 		body{
 			background-image: url("https://media1.tenor.com/images/2be965e95d78fa958e4e57aca6f79372/tenor.gif?itemid=5280260");
 			width: 100%;
-			height: 100%;
 			background-size: 100%;
+            background-repeat: no-repeat;
 		}
 		.button{
 			background-color: #4CAF50;
@@ -45,13 +45,17 @@
 			        transition: all 0.4s ease-in-out;
 		}
     img{
-            width: 60%;
+    width: 60%;
     position: relative;
     left: 23%;
+    border-radius: 10%;
     }
 	</style>
 </head>
 <body>
+    <audio autoplay loop>
+  <source src="res/sounds/startbg.mp3" type="audio/mpeg">
+</audio>
 	<a href="index.html" class="button">Start</a>
     <img src="https://prodimages.everythingneon.com/giant/l100-7011-casino-open-animated-led-sign.gif">
 </body>

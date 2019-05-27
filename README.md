@@ -1,7 +1,7 @@
 ## Game : Crazy Slot Machine
 
 เป็นเกมแนวการพนัน แต่จะเล่นโดยไม่ใช้เงินจริง แต่จะใช้เป็นคะแนน ที่ให้มาในเกม
-
+### Clip Video : https://www.youtube.com/watch?v=IGhN6ZjS-Ko&feature=youtu.be
 ## How to play 
 
 1. เริ่มแรกเราจะให้มา 100 แต้ม

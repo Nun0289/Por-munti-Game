@@ -11,8 +11,8 @@
 
 ## Team Members : Crazy Slot Machine
 
-1.Palat Sirapobwongsakuk 61070130
-2.Pasathorn Pakjamsai 61070132
-3.Thanawath Petavibornsartean 61070075
-4.Nuntavat Suthankornkul 61070103
-5.Pittaya Deeviputh 61070143
+1. Thanawath Petavibornsartean 61070075 
+2. Nuntavat Suthankornkul 61070103 
+3. Palat Sirapobwongsakuk 61070130
+4. Pasathorn Pakjamsai 61070132
+5. Pittaya Deeviputh 61070143
